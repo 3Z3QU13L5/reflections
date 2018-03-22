@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    It was easy to figurite what was the typo or change that produced the bugs
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    you can check the diff bettween each version and figurate when it started to go wrong or when it was rigth.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    pros you can check it out whenever you want and you can used in any editor, no every change it is worth saving
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	normally this occurred because Git is create for coding, ehre is more common that the change in one file interfere another file
+
+How can you use the commands git log and git diff to view the history of files?
+
+   git log show all the commit that have been done to the repository, while git diff show the difference between two commits
+
+How might using version control make you more confident to make changes that could break something?
+
+    because it is more easy to berify where and when the change that break the code happened
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+When to commit
+	
+	 It's easier to understand what each commit does if each only does one thing and is fairly small. Going a week without committing is not the best idea.
+
+	  It would be better to fix all three typos, then commit.
+
+	  All the work is on a single feature, so the commit will have a clear logical purpose. After an hour, the diff will probably have a fair amount of content in it, but not too much to understand.
+
+	  It would have been better to commit after the first bug fix, since the two bug fixes aren't related to each other.
+
+Choosing when to commit is a judgment call, and it's not always cut-and-dried. When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.
+
+to commit
